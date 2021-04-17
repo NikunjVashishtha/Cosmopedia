@@ -1,0 +1,158 @@
+/*Do not copy this code*/
+
+/* Copyright Nikunj Vashishtha , CEO: The COSMOS */
+
+html {
+
+user-select: none;
+
+}
+
+body {
+
+font-family: sans-serif;
+
+animation: flow 10s ease-in-out infinite alternate;
+
+background: linear-gradient(
+
+-60deg,
+
+pink,
+
+lightgreen,
+
+skyblue,
+
+violet,
+
+magenta
+
+);
+
+background-size: 150% 150%;
+
+}
+
+
+#header {
+
+animation: flow 10s ease-in-out infinite alternate;
+
+background: linear-gradient(
+
+60deg,
+
+pink,
+
+lightgreen,
+
+skyblue,
+
+violet,
+
+magenta
+
+);
+
+background-size: 300%;
+
+font-size: 30px;
+
+font-weight: 900;
+
+text-align: center;
+
+text-transform: uppercase;
+
+-webkit-background-clip: text;
+
+background-clip: text;
+
+-webkit-text-fill-color: transparent;
+
+}
+
+@keyframes flow {
+
+0% {
+
+background-position: 0% 50%;
+
+}
+
+50% {
+
+background-position: 100% 50%;
+
+}
+
+100% {
+
+background-position: 0% 50%;
+
+}
+
+}
+
+#sbox {
+
+background-color: rgba(255, 255, 255, 0.4);
+
+margin-left: 30%;
+
+width: 280px;
+
+text-align: center;
+
+border-radius: 10px;
+
+border-style: hidden;
+
+padding-left: 2%;
+
+padding-right: 2%;
+
+padding-top: 0.5%;
+
+padding-bottom: 0.5%;
+
+}
+
+#sbox:focus {
+
+outline: none;
+
+border-bottom-left-radius: 0px;
+
+border-bottom-right-radius: 0px;
+
+}
+
+#btn {
+
+margin-left: 43.7%;
+
+margin-top: 1%;
+
+border-radius: 15px;
+
+border-style: hidden;
+
+padding-left: 2%;
+
+padding-right: 2%;
+
+padding-top: 1%;
+
+padding-bottom: 1%;
+
+}
+
+#btn:focus {
+
+outline: none;
+
+}
+
+
