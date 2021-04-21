@@ -6,3 +6,5 @@ The special thing about all this project is that, it's workforce consist of only
 Thanks for Visiting this repo.
 
 By: The Developer, Cosmos
+
+Note: Cosmos is not a certified/authorized organization yet.
