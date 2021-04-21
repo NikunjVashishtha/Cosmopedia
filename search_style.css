@@ -1,1 +1,11 @@
-
+html {
+    user-select: none;
+}
+body {
+    font-family: sans-serif;
+}
+#header {
+    text-align: center;
+    font-family: 'Karantina';
+    letter-spacing: 1px;
+}

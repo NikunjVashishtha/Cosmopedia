@@ -1,6 +1,3 @@
-//Do not copy this code
-// Copyright Nikunj Vashishtha ,COSMOS
-
 function sleep(ms) {
 return new Promise(resolve => setTimeout(resolve, ms));
 }
