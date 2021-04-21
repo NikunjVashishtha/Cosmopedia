@@ -7,4 +7,4 @@ Thanks for Visiting this repo.
 
 By: The Developer, Cosmos
 
-Note: Cosmos is not a certified/authorized organization yet.
+>Note: Cosmos is not a certified/authorized organization yet.
