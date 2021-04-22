@@ -3,9 +3,72 @@ html {
 }
 body {
     font-family: sans-serif;
+    animation: flow 10s ease-in-out infinite alternate;
+    background: linear-gradient(-60deg,pink,lightgreen,skyblue,violet,magenta);
+    background-size: 150% 150%;
+    background-repeat: no-repeat;
 }
 #header {
+    animation: flow 10s ease-in-out infinite alternate;
+    background: linear-gradient(60deg,pink,lightgreen,skyblue,violet,magenta);
+    background-size: 300%;
+    font-size: 20px;
+    font-weight: 800;
+    float: left;
+    text-align: left;
+    text-transform: uppercase;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+@keyframes flow {
+    0% { background-position: 0% 50%;}
+    50% { background-position: 100% 50%;}
+    100% { background-position: 0% 50%;}
+}
+
+#sbox {
+    background-color: rgba(255, 255, 255, 0.4);
+    margin-left: 8%;
+    width: 180px;
+    margin-top: 2.6%;
     text-align: center;
-    font-family: 'Karantina';
-    letter-spacing: 1px;
+    border-radius: 10px;
+    border-style: hidden;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+    float: left;
+}
+
+#sbox:focus {
+    outline: none;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+#btn {
+    margin-left: 3%;
+    margin-top: 1%;
+    border-radius: 15px;
+    border-style: hidden; 
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+#btn:focus {
+    outline: none;
+}
+
+#r_content {
+    width: 100%;
+    overflow-x: scroll;
+}
+
+#disclamer {
+    width:100%;
 }

@@ -1,8 +1,13 @@
 # [Cosmospedia](https://cosmopedia-in.web.app/)
 An openly accessible knowledge bank being developed and managed by Cosmos.
 
-Thanks for Visiting this repo.
+Visit [Cosmospedia](https://cosmopedia-in.web.app/), it's waiting to be created, modified and be explored.
 
-By: The Developer, Cosmos
+We create 'What the world needs'
 
+Nikunj Vashishtha , Cosmos
+
+#### Developer's corner:
+
+You may suggest, what can be added by being active in creating pull request, issues and discussions.
 >Note: Cosmos is not a certified/authorized organization yet.
