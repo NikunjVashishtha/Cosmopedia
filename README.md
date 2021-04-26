@@ -2,10 +2,7 @@
 An openly accessible knowledge bank being developed and managed by Cosmos.
 
 Visit [Cosmospedia](https://cosmopedia-in.web.app/), it's waiting to be created, modified and be explored.
-
-We create 'What the world needs' 
-
-Nikunj Vashishtha , Cosmos
+>We create 'What the world needs' <br/> - Nikunj Vashishtha , Cosmos
 
 #### Developer's corner:
 
