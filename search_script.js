@@ -1,2 +1,2 @@
 var a = localStorage.search;
-alert("What you search we found for you.\nCompilingnCompiling thing into "+a);
+alert("What you search we found for you.\nCompiling thing into "+a);
