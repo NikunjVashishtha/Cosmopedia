@@ -1,5 +1,6 @@
 html {
     user-select: none;
+    width: 100%;
 }
 
 body {
@@ -7,13 +8,14 @@ body {
     animation: flow 10s ease-in-out infinite alternate;
     background: linear-gradient(-60deg,pink,lightgreen,skyblue,violet,magenta);
     background-size: 150% 150%;
+    font-family: sans-serif;
 }
 
 #header {
     animation: flow 10s ease-in-out infinite alternate;
     background: linear-gradient(60deg,pink,lightgreen,skyblue,violet,magenta);
     background-size: 300%;
-    font-size: 30px;
+    font-size: 2.4rem;
     font-weight: 900;
     text-align: center;
     text-transform: uppercase;
@@ -30,15 +32,13 @@ body {
 
 #sbox {
     background-color: rgba(255, 255, 255, 0.4);
-    margin-left: 10%;
-    width: 280px;
+    margin: 0 auto;
+    justify-content: center;
+    width: 18rem;
     text-align: center;
-    border-radius: 10px;
+    border-radius: 0.5rem;
     border-style: hidden;
-    padding-left: 2%;
-    padding-right: 2%;
-    padding-top: 0.5%;
-    padding-bottom: 0.5%;
+    padding: 0.25rem;
 }
 
 #sbox:focus {
@@ -95,10 +95,12 @@ body {
 #m_words {
     text-align: center;
     margin-top: 60%;
+    font-weight:900;
+    font-size: 16px;
 }
 
 @keyframes magic {
     0% {text-transform: uppercase;}
-    50% {text-transform: lowercase; font-weight:900; font-size: 16px;}
+    50% {text-transform: lowercase;}
     100% {text-transform: uppercase;}
 }
