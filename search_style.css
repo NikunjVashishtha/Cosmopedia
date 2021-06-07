@@ -36,6 +36,7 @@ body {
    background-color: rgba(255, 255, 255, 0.4); 
    margin-left: 2%; 
    width: 14rem;
+   width: 180px;
    margin-top: 2%; 
    text-align: center; 
    border-radius: 10px; 
