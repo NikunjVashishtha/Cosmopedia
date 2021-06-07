@@ -8,9 +8,9 @@ html {
 body {
     font-family: sans-serif;
     animation: flow 10s ease-in-out infinite alternate;
-    background: linear-gradient(-60deg,pink,lightgreen,skyblue,violet,magenta);
-    background-size: 150% 150%;
+    background: url("https://lh3.googleusercontent.com/4nJyTdgrF38WuxUoFv9dUL7b0fz677JUDQ-tiLM5KKPPc35JK90Wp51zmucVlo578DERoKIFJQK0KDAymEcmrJXoxZXbWL9lDBULauSDN2hbe58vX1TbaZyzfU1z1zfYDUrY1hXxPg=w2400");
     background-repeat: no-repeat;
+    background-size: 100%;
 }
 
 #header {
@@ -26,15 +26,8 @@ body {
     -webkit-text-fill-color: transparent;
 }
 
-@keyframes flow {
-    0% { background-position: 0% 50%;}
-    50% { background-position: 100% 50%;}
-    100% { background-position: 0% 50%;}
-}
-
 #sbox {
     background-color: rgba(255, 255, 255, 0.4);
-    width: 20%;
     display: block;
     margin : 0 auto;
     text-align: center;
@@ -51,8 +44,10 @@ body {
 #btn {
     margin-left: 43.7%;
     margin-top: 1%;
+    display: block;
+    margin : 0 auto;
     border-radius: 15px;
-    border-style: hidden;    
+    border-style: hidden;
     padding-left: 2%;
     padding-right: 2%;
     padding-top: 1%;
@@ -107,37 +102,13 @@ body {
 }
 
 @media screen and (min-width: 1080px) and (max-width: 1920px) {
-    body {
-        background-size: 150% 150%
-    }
-    #sbox {
-        width: 20rem;
-    }
+
 }
 
 @media screen and (min-width:500px) and (max-width: 896px) {
-    body {
-        background-size: 200% 350%;
-    }
-    #sbox {
-        width: 15rem;
-    }
+
 }
 
 @media screen and (max-width: 480px) {
-    body {
-        background-size: 200% 800%;
-    }
-    #sbox {
-        width: 15rem;
-        margin-left: 19%;
-    }
-    #btn {
-        margin-top: 2%;
-        margin-left: 42%;
-        font-weight: bold;
-    }
-    #m_words {
-        margin-top: 40%;
-    }
+
 }
