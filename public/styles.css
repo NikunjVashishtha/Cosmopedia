@@ -35,7 +35,8 @@ body {
 #sbox {
     background-color: rgba(255, 255, 255, 0.4);
     width: 20%;
-    margin-left: 32.9%;
+    display: block;
+    margin : 0 auto;
     text-align: center;
     border-radius: 12px;
     border-style: hidden;
