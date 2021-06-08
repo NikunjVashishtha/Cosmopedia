@@ -110,5 +110,8 @@ body {
 }
 
 @media screen and (max-width: 480px) {
-
+    #sbox {
+        display:flex;
+        align-self: stretch;
+    }
 }
