@@ -35,8 +35,7 @@ $(function () {
     var words = $("#words").text();
     const lngth = words.length;
     var s_word = Array.from(words);
-    for (let i=0;i<lngth;i++)
-    {
-        s_word[i].css("text-transform","uppercase");
+    for (let i = 0; i < lngth; i++) {
+        s_word[i].css("text-transform", "uppercase");
     }
 });
