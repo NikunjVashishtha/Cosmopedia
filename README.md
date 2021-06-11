@@ -8,6 +8,9 @@ Visit [Cosmospedia](https://cosmopedia-in.web.app/), it's waiting to be created,
 
 You may suggest, what can be added by being active in creating pull request, issues and discussions.
 
+Developers can also join our server at Discord.
+https://discord.gg/ZruCPTB
+
 Written in `HTML/CSS/JS`
 
 >Note: Cosmos is not a certified/authorized organization yet.

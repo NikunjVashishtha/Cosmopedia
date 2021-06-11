@@ -1,16 +1,14 @@
 html {
-    user-select: none;
-    -webkit-user-select: none;
     width: 100%;
     overflow: hidden;
+    background: url("https://lh3.googleusercontent.com/4nJyTdgrF38WuxUoFv9dUL7b0fz677JUDQ-tiLM5KKPPc35JK90Wp51zmucVlo578DERoKIFJQK0KDAymEcmrJXoxZXbWL9lDBULauSDN2hbe58vX1TbaZyzfU1z1zfYDUrY1hXxPg=w2400");
+    background-size: 100%;
 }
 
 body {
     font-family: sans-serif;
     animation: flow 10s ease-in-out infinite alternate;
-    background: url("https://lh3.googleusercontent.com/4nJyTdgrF38WuxUoFv9dUL7b0fz677JUDQ-tiLM5KKPPc35JK90Wp51zmucVlo578DERoKIFJQK0KDAymEcmrJXoxZXbWL9lDBULauSDN2hbe58vX1TbaZyzfU1z1zfYDUrY1hXxPg=w2400");
     background-repeat: no-repeat;
-    background-size: 100%;
 }
 
 #header {
@@ -30,17 +28,16 @@ body {
     background-color: rgba(255, 255, 255, 0.4);
     display: flex;
     width: 60%;
-    height: 1.5rem;
     margin : 0 auto;
     text-align: center;
-    border-radius: 12px;
+    border-radius: 15px;
     border-style: hidden;
     padding: 0.25rem;
 }
 
 #sbox:focus {
     outline: none;
-    border-radius: 12px 12px 0px 0px;
+    border-radius: 15px 15px 0px 0px;
 }
 
 #btn {
@@ -100,7 +97,9 @@ body {
 }
 
 @media screen and (min-width: 1080px) and (max-width: 1920px) {
-
+    #sbox {
+        height: 1.5rem;
+    }
 }
 
 @media screen and (min-width:500px) and (max-width: 896px) {
@@ -108,7 +107,12 @@ body {
 }
 
 @media screen and (max-width: 480px) {
+    html {
+        background-image: url("wallpaper_phone.jpg");
+        background-size: 100%;
+    }
     #sbox {
-        align-self: stretch;
+        display: flex;
+        width: 80%;
     }
 }
