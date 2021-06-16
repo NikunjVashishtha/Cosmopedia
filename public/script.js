@@ -31,11 +31,3 @@ function explore() {
     alert("This feature is not yet available.\nWait while we create the world.");
     window.location = "search.html";
 }
-$(function () {
-    var words = $("#words").text();
-    const lngth = words.length;
-    var s_word = Array.from(words);
-    for (let i = 0; i < lngth; i++) {
-        s_word[i].css("text-transform", "uppercase");
-    }
-});

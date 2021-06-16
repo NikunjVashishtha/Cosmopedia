@@ -53,47 +53,12 @@ body {
     outline: none;
 }
 
-#w1 {
+#words {
     color: white;
-    text-align: center;
-    animation: magic 1s infinite ease-in-out;
-}
-
-#w2 {
-    color: white;
-    text-align: center;
-    animation: magic 1.2s infinite ease-in-out;
-}
-
-#w3 {
-    color: white;
-    text-align: center;
-    animation: magic 1.4s infinite ease-in-out;
-}
-
-#w4 {
-    color: white;
-    text-align: center;
-    animation: magic 1.6s infinite ease-in-out;
-}
-
-#w5 {
-    color: white;
-    text-align: center;
-    animation: magic 1.8s infinite ease-in-out;
-}
-
-#m_words {
     text-align: center;
     margin-top: 20%;
     font-weight:900;
     font-size: 16px;
-}
-
-@keyframes magic {
-    0% {text-transform: uppercase;}
-    50% {text-transform: lowercase;}
-    100% {text-transform: uppercase;}
 }
 
 @media screen and (min-width: 1080px) and (max-width: 1920px) {
