@@ -49,6 +49,11 @@ body {
     font-weight: bold;
 }
 
+#btn:hover {
+    cursor: pointer;
+    background-color: rgba(142, 200, 255, 0.842);
+}
+
 #btn:focus {
     outline: none;
 }
